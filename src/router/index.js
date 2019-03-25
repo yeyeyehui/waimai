@@ -12,39 +12,39 @@ Vue.use(VueRouter)
 export default new VueRouter({
   routes: [
     {
-      path: '/', 
+      path: '/',
       redirect: '/msite'
     },
     {
-      path: '/msite', 
+      path: '/msite',
       component: MSite,
       meta: {
         login: true
       }
     },
     {
-      path: '/search', 
+      path: '/search',
       component: search,
       meta: {
         login: true
       }
     },
     {
-      path: '/profile', 
+      path: '/profile',
       component: profile,
       meta: {
         login: true
       }
     },
     {
-      path: '/order', 
+      path: '/order',
       component: order,
       meta: {
         login: true
       }
     },
     {
-      path: '/login', 
+      path: '/login',
       component: login
     }
   ]
